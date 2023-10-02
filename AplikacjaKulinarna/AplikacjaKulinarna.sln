@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfejs", "Interfejs\Interfejs.csproj", "{3C8C6DA3-C48B-433B-993F-C47D323B4746}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogikaProgramu", "LogikaProgramu\LogikaProgramu.csproj", "{D1868933-9EF2-4C6A-9BD1-E742B234AB78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C8C6DA3-C48B-433B-993F-C47D323B4746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C8C6DA3-C48B-433B-993F-C47D323B4746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C8C6DA3-C48B-433B-993F-C47D323B4746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C8C6DA3-C48B-433B-993F-C47D323B4746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1868933-9EF2-4C6A-9BD1-E742B234AB78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1868933-9EF2-4C6A-9BD1-E742B234AB78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1868933-9EF2-4C6A-9BD1-E742B234AB78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1868933-9EF2-4C6A-9BD1-E742B234AB78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0068C598-3C1D-4E8B-9016-7AE62B64DA68}
+	EndGlobalSection
+EndGlobal
