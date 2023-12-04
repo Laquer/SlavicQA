@@ -1,0 +1,211 @@
+<mxfile host="app.diagrams.net" modified="2023-10-23T16:14:41.858Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0" etag="HK1IuhXjRVQV6RYdt6_Q" version="22.0.6" type="device">
+  <diagram name="Page-1" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
+    <mxGraphModel dx="429" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6e0c8c40b5770093-72" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=194;tabHeight=22;tabPosition=left;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
+          <mxGeometry x="310" y="114.5" width="1001" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="6e0c8c40b5770093-73" value="&amp;lt;&amp;lt;model&amp;gt;&amp;gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=10;fontFamily=Verdana" parent="1" vertex="1">
+          <mxGeometry x="327.5" y="114.5" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-1" value="Organizowanie diety" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="755.75" y="170" width="142.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-2" value="Dodawanie składników" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ykCjQgOmN5W7flo6K3xw-2" target="ykCjQgOmN5W7flo6K3xw-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="610" as="sourcePoint" />
+            <mxPoint x="700" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-5" value="Pobranie wszystkich typów składników" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="450" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-6" value="Wyświetlenie listy wszystkich typów skłądników" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="520" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-7" value="Użytkownik wybiera typ składnika" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="590" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-8" value="Użytkownik wybiera ilość składnika" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="660" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-9" value="Składnik w podanej ilości jest dodany do lodówki" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="730" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.117;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ykCjQgOmN5W7flo6K3xw-9" target="ykCjQgOmN5W7flo6K3xw-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="610" as="sourcePoint" />
+            <mxPoint x="710" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="755" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ykCjQgOmN5W7flo6K3xw-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="685" as="sourcePoint" />
+            <mxPoint x="710" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-13" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ykCjQgOmN5W7flo6K3xw-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="610" as="sourcePoint" />
+            <mxPoint x="380" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ykCjQgOmN5W7flo6K3xw-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="545" as="sourcePoint" />
+            <mxPoint x="710" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ykCjQgOmN5W7flo6K3xw-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="475" as="sourcePoint" />
+            <mxPoint x="710" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-18" value="Usuwanie składników" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-19" value="Pobranie składników z lodówki" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="450" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-20" value="Wyświetlenie listy składników w lodówce" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="520" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-21" value="Użytkownik wybiera typ składnika" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="590" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-22" value="Użytkownik wybiera ilość składnika" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="660" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-23" value="Składnik w podanej ilości jest usunięty z lodówki" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="730" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0.567;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ykCjQgOmN5W7flo6K3xw-18" target="ykCjQgOmN5W7flo6K3xw-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="610" as="sourcePoint" />
+            <mxPoint x="760" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-25" value="" style="endArrow=none;html=1;rounded=0;entryX=0.075;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ykCjQgOmN5W7flo6K3xw-23" target="ykCjQgOmN5W7flo6K3xw-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="610" as="sourcePoint" />
+            <mxPoint x="700" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="579" y="755" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-26" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ykCjQgOmN5W7flo6K3xw-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="685" as="sourcePoint" />
+            <mxPoint x="700" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-27" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ykCjQgOmN5W7flo6K3xw-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="615" as="sourcePoint" />
+            <mxPoint x="740" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-28" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ykCjQgOmN5W7flo6K3xw-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="545" as="sourcePoint" />
+            <mxPoint x="740" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-29" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ykCjQgOmN5W7flo6K3xw-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="475" as="sourcePoint" />
+            <mxPoint x="740" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-30" value="Generowanie propozycji dań" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750.5" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-31" value="" style="endArrow=none;html=1;rounded=0;entryX=0.31;entryY=0.989;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.32;exitY=-0.029;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ykCjQgOmN5W7flo6K3xw-30" target="ykCjQgOmN5W7flo6K3xw-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="570" as="sourcePoint" />
+            <mxPoint x="740" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-32" value="Pobranie składników z lodówki" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="450" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-33" value="Pobieranie przepisów" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="520" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-34" value="Wyszukiwanie przepisów pasujących do stanu lodówki" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="590" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-35" value="Wyświetlenie dobranych przepisów" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="670" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-36" value="" style="endArrow=none;html=1;rounded=0;entryX=0.087;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ykCjQgOmN5W7flo6K3xw-35" target="ykCjQgOmN5W7flo6K3xw-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="570" as="sourcePoint" />
+            <mxPoint x="740" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="695" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-40" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ykCjQgOmN5W7flo6K3xw-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="620" as="sourcePoint" />
+            <mxPoint x="800" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-41" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ykCjQgOmN5W7flo6K3xw-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="545" as="sourcePoint" />
+            <mxPoint x="800" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-42" value="" style="endArrow=none;html=1;rounded=0;entryX=0.007;entryY=0.558;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ykCjQgOmN5W7flo6K3xw-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="478" as="sourcePoint" />
+            <mxPoint x="800" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-43" value="Wykonanie przepisu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-46" value="" style="endArrow=none;html=1;rounded=0;entryX=0.837;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ykCjQgOmN5W7flo6K3xw-43" target="ykCjQgOmN5W7flo6K3xw-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="470" as="sourcePoint" />
+            <mxPoint x="900" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-47" value="Pytanie o potwierdzenie wykonania przepisu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="450" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-48" value="Usuniecie potrzebnych skladników z lodówki" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="520" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-51" value="" style="endArrow=none;html=1;rounded=0;entryX=0.087;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ykCjQgOmN5W7flo6K3xw-48" target="ykCjQgOmN5W7flo6K3xw-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="470" as="sourcePoint" />
+            <mxPoint x="980" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="949" y="545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ykCjQgOmN5W7flo6K3xw-52" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ykCjQgOmN5W7flo6K3xw-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="950" y="475" as="sourcePoint" />
+            <mxPoint x="980" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

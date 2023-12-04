@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using LogikaProgramu;
 
 namespace Interfejs
 {
@@ -20,9 +21,12 @@ namespace Interfejs
     /// </summary>
     public partial class MainWindow : Window
     {
+        public IInterfejs interfejs;
+
         public MainWindow()
         {
             InitializeComponent();
+            interfejs.DejMiPrzepisy();
         }
     }
 }

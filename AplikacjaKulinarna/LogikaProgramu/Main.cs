@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogikaProgramu
 {
-    public class Class1
+    internal class Main
     {
-
     }
 }

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D1868933-9EF2-4C6A-9BD1-E742B234AB78}</ProjectGuid>
+    <ProjectGuid>{1EAC7198-DA1C-4FE6-885C-9EEA075158E8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LogikaProgramu</RootNamespace>
-    <AssemblyName>LogikaProgramu</AssemblyName>
+    <RootNamespace>PolaczenieZbaza</RootNamespace>
+    <AssemblyName>PolaczenieZbaza</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,16 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BasicInterfejsConnection.cs" />
-    <Compile Include="IInterfejs.cs" />
+    <Compile Include="BasicLogikaConnection.cs" />
+    <Compile Include="ILogika.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\PolaczenieZbaza\PolaczenieZbaza.csproj">
-      <Project>{1eac7198-da1c-4fe6-885c-9eea075158e8}</Project>
-      <Name>PolaczenieZbaza</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -99,6 +99,10 @@
       <Project>{d1868933-9ef2-4c6a-9bd1-e742b234ab78}</Project>
       <Name>LogikaProgramu</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PolaczenieZbaza\PolaczenieZbaza.csproj">
+      <Project>{1eac7198-da1c-4fe6-885c-9eea075158e8}</Project>
+      <Name>PolaczenieZbaza</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
