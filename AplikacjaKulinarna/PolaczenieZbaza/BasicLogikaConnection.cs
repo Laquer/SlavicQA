@@ -8,6 +8,11 @@ namespace PolaczenieZbaza
 {
     internal class BasicLogikaConnection : ILogika
     {
+        public List<string> DejMiPrzepisy()
+        {
+            throw new NotImplementedException();
+        }
+
         public void PobierzDane()
         {
             throw new NotImplementedException();

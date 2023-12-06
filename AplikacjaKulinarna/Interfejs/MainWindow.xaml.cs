@@ -26,7 +26,6 @@ namespace Interfejs
         public MainWindow()
         {
             InitializeComponent();
-            interfejs.DejMiPrzepisy();
         }
     }
 }
