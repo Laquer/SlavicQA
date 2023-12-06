@@ -1,0 +1,16 @@
+﻿<Page x:Class="Interfejs.Pages.FridgeComponents"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Interfejs.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="1080" d:DesignWidth="1920"
+      Title="FridgeComponents">
+
+    <Grid Background=" #8FE7B7">
+        <Button Content="Dodaj&#xD;&#xA;" HorizontalAlignment="Left" Margin="960,32,0,0" VerticalAlignment="Top" Width="264" Height="73" Click="Button_Click" FontSize="48"/>
+        <Button Content="Usuń&#xD;&#xA;&#xA;" HorizontalAlignment="Left" Margin="1366,32,0,0" VerticalAlignment="Top" Width="264" Height="73" Click="Button_Click" FontSize="48"/>
+
+    </Grid>
+</Page>
