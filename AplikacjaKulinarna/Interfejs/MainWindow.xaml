@@ -63,10 +63,12 @@
             </Setter>
         </Style>
     </Window.Resources>
-    <Grid Background="#FF8FE7B7">
-        <Button Style="{DynamicResource RoundedButtonStyle}" Content="Recipes" HorizontalAlignment="Left" Margin="132,109,0,0" VerticalAlignment="Top" Height="87" Width="352" Background="White" FontSize="48"/>
-        <Button Style="{DynamicResource RoundedButtonStyle}" Content="Fridge" HorizontalAlignment="Left" Margin="132,223,0,0" VerticalAlignment="Top" Height="87" Width="352" Background="White" FontSize="48"/>
-        <Button Style="{DynamicResource RoundedButtonStyle}" Content="Settings" HorizontalAlignment="Left" Margin="132,335,0,0" VerticalAlignment="Top" Height="87" Width="352" Background="White" FontSize="48"/>
+    <Grid Background="#FF8FE7B7" Height="1064" VerticalAlignment="Bottom">
+        <Frame x:Name="Main"  Margin="322,98,0,0" NavigationUIVisibility="Hidden"/>
+        <Button Style="{DynamicResource RoundedButtonStyle}" Content="Przepisy" HorizontalAlignment="Left" Margin="40,98,0,0" VerticalAlignment="Top" Height="87" Width="277" Background="White" FontSize="48" Click="Button_Click"/>
+        <Button Style="{DynamicResource RoundedButtonStyle}" Content="Lodówka" HorizontalAlignment="Left" Margin="40,214,0,0" VerticalAlignment="Top" Height="87" Width="277" Background="White" FontSize="48" Click="Button_Click_1"/>
+        <Button Style="{DynamicResource RoundedButtonStyle}" Content="Ustawienia" HorizontalAlignment="Left" Margin="40,330,0,0" VerticalAlignment="Top" Height="87" Width="277" Background="White" FontSize="48"/>
+        <Button Style="{DynamicResource RoundedButtonStyle}" Content="Powrót " HorizontalAlignment="Left" Margin="40,445,0,0" VerticalAlignment="Top" Height="87" Width="277" Background="White" FontSize="48" Click="Button_Click_2"/>
 
     </Grid>
 </Window>
