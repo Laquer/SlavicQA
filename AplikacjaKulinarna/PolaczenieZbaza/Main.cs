@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PolaczenieZbaza.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,6 @@ namespace PolaczenieZbaza
 {
     internal class Main
     {
-
+        LodówkaAppContext context = new LodówkaAppContext();
     }
 }

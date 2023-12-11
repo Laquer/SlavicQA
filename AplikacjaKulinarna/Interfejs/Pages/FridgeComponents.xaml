@@ -11,7 +11,7 @@
     <Grid Background=" #8FE7B7" Margin="0,0,0,10">
         <Button Content="Dodaj&#xD;&#xA;" HorizontalAlignment="Left" Margin="69,74,0,0" VerticalAlignment="Top" Width="264" Height="73" Click="Button_Click" FontSize="48"/>
         <Button Content="Usuń&#xD;&#xA;&#xA;" HorizontalAlignment="Left" Margin="69,152,0,0" VerticalAlignment="Top" Width="264" Height="73" Click="Button_Click" FontSize="48" RenderTransformOrigin="0.231,-0.384"/>
-        <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="333,74,47,24" Background="#FF8FE7B7"/>
+        <DataGrid x:Name="LodówkaDataGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="333,74,47,24" Background="#FF8FE7B7"/>
 
     </Grid>
 </Page>
