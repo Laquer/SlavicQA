@@ -19,6 +19,8 @@ public partial class LodówkaAppContext : DbContext
 
     public virtual DbSet<StringDTO> StringDTOs { get; set; }
 
+    public virtual DbSet<LodówkaDTO> LodówkaDTOs { get; set; }
+
     public virtual DbSet<Przepi> Przepis { get; set; }
 
     public virtual DbSet<Skladnik> Skladniks { get; set; }

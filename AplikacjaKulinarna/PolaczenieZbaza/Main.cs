@@ -8,19 +8,32 @@ using System.Threading.Tasks;
 
 namespace PolaczenieZbaza
 {
-    internal class Main
+    public class Main
     {
         
-        LodówkaAppContext context = new LodówkaAppContext();
+        static LodówkaAppContext context = new LodówkaAppContext();
 
-        List<String> ListaSkladnikow()
+        public static List<String> ListaSkladnikow()
         {
 
             var result = context.StringDTOs.FromSqlRaw("SELECT s.nazwa, l.ilosc_skladnika, s.przelicznik FROM Lodowki l JOIN Skladnik s ON l.id_skladnika = s.id_skladnika;");
-            var wynikiString = result.Select(dto => dto.StringProperty).ToList();
+            var wynikiString = result.Select(dto => dto.NazwaSkladnika).ToList();
 
             return wynikiString;
         }
-        
+
+       public static (List<String>,List<decimal?>,List<String>) SkladLodowki()
+        {
+
+            var result = context.LodówkaDTOs.FromSqlRaw("SELECT s.nazwa, l.ilosc_skladnika, s.przelicznik FROM Lodowki l JOIN Skladnik s ON l.id_skladnika = s.id_skladnika;");
+            var NazwaSkladnika = result.Select(dto => dto.NazwaSkladnika).ToList();
+            var IloscSkladnika = result.Select(dto => dto.IloscSkladnika).ToList();
+            var PrzelicznikSkladnika = result.Select(dto => dto.PrzelicznikSkladnika).ToList();
+
+
+
+            return (NazwaSkladnika,IloscSkladnika,PrzelicznikSkladnika);
+        }
+
     }
 }

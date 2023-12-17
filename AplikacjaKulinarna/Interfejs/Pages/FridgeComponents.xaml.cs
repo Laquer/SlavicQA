@@ -30,8 +30,8 @@ namespace Interfejs.Pages
             InitializeComponent();
 
             LodówkaAppContext context = new LodówkaAppContext();
-            LodówkaDataGrid.ItemsSource = context.StringDTOs.FromSqlRaw("SELECT s.nazwa, l.ilosc_skladnika, s.przelicznik FROM Lodowki l JOIN Skladnik s ON l.id_skladnika = s.id_skladnika;").ToList();
-
+            //LodówkaDataGrid.ItemsSource = context.LodówkaDTOs.FromSqlRaw("SELECT s.nazwa, l.ilosc_skladnika, s.przelicznik FROM Lodowki l JOIN Skladnik s ON l.id_skladnika = s.id_skladnika;").ToList();
+            var wynik = PolaczenieZbaza.Main.SkladLodowki();
 
 
         }
