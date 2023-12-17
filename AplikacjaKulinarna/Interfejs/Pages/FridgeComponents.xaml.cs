@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using PolaczenieZbaza.Models;
 using PolaczenieZbaza;
+using Microsoft.EntityFrameworkCore;
 
 namespace Interfejs.Pages
 {
@@ -22,12 +23,14 @@ namespace Interfejs.Pages
     /// </summary>
     public partial class FridgeComponents : Page
     {
+        
+
         public FridgeComponents()
         {
             InitializeComponent();
 
             LodówkaAppContext context = new LodówkaAppContext();
-            LodówkaDataGrid.ItemsSource = context.Lodowkis.ToList();   
+            LodówkaDataGrid.ItemsSource = context.StringDTOs.FromSqlRaw("SELECT s.nazwa, l.ilosc_skladnika, s.przelicznik FROM Lodowki l JOIN Skladnik s ON l.id_skladnika = s.id_skladnika;").ToList();
 
 
 
