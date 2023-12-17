@@ -7,7 +7,7 @@ namespace PolaczenieZbaza.Models
     [Keyless]
     public partial class StringDTO
     {
-        public string NazwaSkladnika { get; set; }
+        public string nazwa { get; set; }
    
     }
 }

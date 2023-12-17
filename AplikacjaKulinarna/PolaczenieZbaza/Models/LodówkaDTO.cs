@@ -10,11 +10,11 @@ namespace PolaczenieZbaza.Models
     [Keyless]
     public partial class LodówkaDTO
     {
-        public string NazwaSkladnika { get; set; }
+        public string nazwa { get; set; }
 
-        public decimal? IloscSkladnika { get; set; }
+        public decimal? ilosc_skladnika { get; set; }
 
-        public string PrzelicznikSkladnika { get; set; }
+        public string przelicznik { get; set; }
 
 
     }
