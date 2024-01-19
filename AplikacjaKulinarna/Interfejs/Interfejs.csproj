@@ -7,6 +7,12 @@
     <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="Graphics\Drinks.png" />
+    <None Remove="Graphics\Fruits.png" />
+    <None Remove="Graphics\meat.png" />
+    <None Remove="Graphics\vegetables.png" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\LogikaProgramu\LogikaProgramu.csproj" />
     <ProjectReference Include="..\PolaczenieZbaza\PolaczenieZbaza.csproj" />
   </ItemGroup>
@@ -23,6 +29,12 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Graphics\Drinks.png" />
+    <Resource Include="Graphics\Fruits.png" />
+    <Resource Include="Graphics\meat.png" />
+    <Resource Include="Graphics\vegetables.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Properties\Settings.Designer.cs">

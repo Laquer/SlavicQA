@@ -5,10 +5,12 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Interfejs.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="966" d:DesignWidth="1598"
+      d:DesignHeight="705.5" d:DesignWidth="1679"
       Title="MenuPage">
 
-    <Grid Background="#FF8FE7B7">
-        <TextBox HorizontalAlignment="Left" Margin="352,239,0,0" TextWrapping="Wrap" Text="Tu będzie Menu" VerticalAlignment="Top" Width="829" Height="244" Background="#FF8FE7B7" FontSize="68"/>
+    <Grid Background="#FF8FE7B7" Margin="0,10,0,0">
+        <Image Margin="0,-51,634,362" Source="/Graphics/Drinks.png" Stretch="Fill"/>
+        <Image Margin="687,-79,-40,114" Source="/Graphics/Fruits.png" Stretch="Fill"/>
+        <Image Margin="0,378,489,0" Source="/Graphics/vegetables.png" Stretch="Fill"/>
     </Grid>
 </Page>

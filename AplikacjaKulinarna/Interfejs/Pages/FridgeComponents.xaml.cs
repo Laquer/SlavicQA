@@ -41,5 +41,10 @@ namespace Interfejs.Pages
         {
 
         }
+
+        private void LodówkaDataGrid_SelectionChanged()
+        {
+
+        }
     }
 }

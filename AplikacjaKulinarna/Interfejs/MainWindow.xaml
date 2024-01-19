@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Interfejs"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1080" Width="1920">
+        Title="MainWindow" Height="900" Width="1600">
+
     <Window.Resources>
         <Style x:Key="FocusVisual">
             <Setter Property="Control.Template">
@@ -63,12 +64,16 @@
             </Setter>
         </Style>
     </Window.Resources>
-    <Grid Background="#FF8FE7B7" Height="1064" VerticalAlignment="Bottom">
-        <Frame x:Name="Main"  Margin="322,98,0,0" NavigationUIVisibility="Hidden"/>
-        <Button Style="{DynamicResource RoundedButtonStyle}" Content="Przepisy" HorizontalAlignment="Left" Margin="40,98,0,0" VerticalAlignment="Top" Height="87" Width="277" Background="White" FontSize="48" Click="Button_Click"/>
-        <Button Style="{DynamicResource RoundedButtonStyle}" Content="Lodówka" HorizontalAlignment="Left" Margin="40,214,0,0" VerticalAlignment="Top" Height="87" Width="277" Background="White" FontSize="48" Click="Button_Click_1"/>
-        <Button Style="{DynamicResource RoundedButtonStyle}" Content="Ustawienia" HorizontalAlignment="Left" Margin="40,330,0,0" VerticalAlignment="Top" Height="87" Width="277" Background="White" FontSize="48"/>
-        <Button Style="{DynamicResource RoundedButtonStyle}" Content="Powrót " HorizontalAlignment="Left" Margin="40,445,0,0" VerticalAlignment="Top" Height="87" Width="277" Background="White" FontSize="48" Click="Button_Click_2"/>
+
+    <Grid Background="#FF8FE7B7"  Height="884" VerticalAlignment="Center" >
+        <Frame x:Name="Main"  Margin="312,89,10,88" NavigationUIVisibility="Hidden" />
+        
+
+        <Button Style="{DynamicResource RoundedButtonStyle}" Content="Przepisy" HorizontalAlignment="Left" Margin="30,137,0,0" VerticalAlignment="Top" Height="87" Width="277" Background="White" FontSize="48" Click="Button_Click"/>
+        <Button Style="{DynamicResource RoundedButtonStyle}" Content="Lodówka" HorizontalAlignment="Left" Margin="30,252,0,0" VerticalAlignment="Top" Height="88" Width="277" Background="White" FontSize="48" Click="Button_Click_1"/>
+        <Button Style="{DynamicResource RoundedButtonStyle}" Content="Ustawienia" HorizontalAlignment="Left" Margin="30,368,0,0" VerticalAlignment="Top" Height="88" Width="277" Background="White" FontSize="48"/>
+        <Button Style="{DynamicResource RoundedButtonStyle}" Content="Powrót " HorizontalAlignment="Left" Margin="30,484,0,0" VerticalAlignment="Top" Height="86" Width="277" Background="White" FontSize="48" Click="Button_Click_2"/>
 
     </Grid>
+
 </Window>
