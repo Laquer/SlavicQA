@@ -69,6 +69,16 @@
     </Page.Resources>
     <Grid Background="#FF8FE7B7">
         <Button Style="{DynamicResource RoundedButtonStyle}" Background="White" Content="Dodaj Przepis&#xD;&#xA;&#xA;" HorizontalAlignment="Left" Margin="346,137,0,0" VerticalAlignment="Top" Height="72" Width="264" FontSize="41"/>
+        <Button Style="{DynamicResource RoundedButtonStyle}" Background="White" Content="Usuń Przepis&#xD;&#xA;" HorizontalAlignment="Left" Margin="346,214,0,0" VerticalAlignment="Top" Height="72" Width="264" FontSize="41" Click="Button_Click"/>
+        <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="615,137,228,386" Background="#FF8FE7B7" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Nazwa Przepisu"
+                    Binding="{Binding Nazwa, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Opis"
+                    Binding="{Binding Opis, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
 
     </Grid>
 </Page>

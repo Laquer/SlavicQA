@@ -9,6 +9,7 @@
       Title="RecipeView">
 
     <Grid Background="#8FE7B7">
-        
+        <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="752,149,125,201" RenderTransformOrigin="0.521,0.537"/>
+
     </Grid>
 </Page>
