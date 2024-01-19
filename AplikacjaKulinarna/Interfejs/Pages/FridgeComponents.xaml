@@ -69,12 +69,16 @@
     </Page.Resources>
     <Grid Background=" #8FE7B7" Margin="0,0,0,10">
         <Button Style="{DynamicResource RoundedButtonStyle}" Content="Dodaj&#xD;&#xA;" HorizontalAlignment="Left" Margin="71,44,0,0" VerticalAlignment="Top" Width="264" Height="73" Click="Button_Click" Background="White" FontSize="48"/>
-        <Button Style="{DynamicResource RoundedButtonStyle}" Content="Usuń&#xD;&#xA;&#xA;" HorizontalAlignment="Left" Margin="71,122,0,0" VerticalAlignment="Top" Width="264" Height="73" Click="Button_Click" Background="White" FontSize="48" RenderTransformOrigin="0.231,-0.384"/>
-        <DataGrid  d:ItemsSource="{d:SampleData ItemCount=5}"  x:Name="LodówkaDataGrid" AutoGenerateColumns="True" Margin="335,44,45,54" Background="#FF8FE7B7">
-
-
-
-
+        <Button Style="{DynamicResource RoundedButtonStyle}" Content="Usuń&#xD;&#xA;&#xA;" HorizontalAlignment="Left" Margin="71,122,0,0" VerticalAlignment="Top" Width="264" Height="73" Click="Button_Click2" Background="White" FontSize="48" RenderTransformOrigin="0.231,-0.384"/>
+        <DataGrid x:Name="LodówkaDataGrid" AutoGenerateColumns="False" CanUserAddRows="True" Margin="335,44,45,54" Background="#FF8FE7B7">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Nazwa Składnika"
+                            Binding="{Binding Nazwa, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Ilość"
+                            Binding="{Binding Ilosc, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Jednostka"
+                            Binding="{Binding Jednostka, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            </DataGrid.Columns>
         </DataGrid>
     </Grid>
 </Page>
